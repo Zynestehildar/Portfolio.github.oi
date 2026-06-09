@@ -1,4 +1,4 @@
-# Tiffany's Portfoli0
+# Tiffany's Portfolio
 
 <a href="Technical-Document">Technical Document</a>
 <hr>
