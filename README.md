@@ -1,7 +1,7 @@
 # Tiffany's Portfolio
 
-<a href="Technical-Document">Technical Document</a>
+<a href="techdoc.html">Technical Document</a>
 <hr>
-<a href="Book-Inventory">Bood Inventory</a>
+<a href="books.html">Bood Inventory</a>
 <hr>
-<a href="Playing-Cards">Playing Cards</a>
+<a href="cards.html">Playing Cards</a>
