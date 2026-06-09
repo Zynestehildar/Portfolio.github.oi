@@ -2,110 +2,60 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Book Inventory</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1 class="title">Book Inventory</h1>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Category</th>
-        <th>Status</th>
-        <th>Rate</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="to-read">
-        <td>Spellbound Masquerade</td>
-        <td>Melissa Bellis</td>
-        <td>Fantasy</td>
-        <td><span class="status">To Read</span></td>
-        <td><span class="rate"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="to-read">
-        <td>A Court of Thorns and Roses</td>
-        <td>Sarah J. Maas</td>
-        <td>Fantasy/ Romance</td>
-        <td><span class="status">To Read</span></td>
-        <td><span class="rate"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>City of Heavenly Fire</td>
-        <td>Cassandra Clare</td>
-        <td>Fantasy/ Romance</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate three"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="in-progress">
-        <td>Sorcery of Thorns</td>
-        <td>Margaret Rogerson</td>
-        <td>Fantasy/ Romance</td>
-        <td><span class="status">In Progress</span></td>
-        <td><span class="rate"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>The Hunger Games</td>
-        <td>Suzanne Collins</td>
-        <td>Dystopia/ Fiction</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate two"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>Holes</td>
-        <td>Louis Sachar</td>
-        <td>Classic/ Fiction</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate three"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="to-read">
-        <td>Murder at the Magic Academy</td>
-        <td>Alicia Rades</td>
-        <td>Fantasy</td>
-        <td><span class="status">To Read</span></td>
-        <td><span class="rate"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>The Great Gatsby</td>
-        <td>F. Scott Fitzgerald</td>
-        <td>Classic</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate three"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>The Color Purple</td>
-        <td>Alice Walker</td>
-        <td>Classic/ Historical Fiction</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate two"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>Twilight</td>
-        <td>Stephenie Meyer</td>
-        <td>Fantasy/ Romance</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate two"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="to-read">
-        <td>Concealing Magic</td>
-        <td>Alicia Rades</td>
-        <td>Fantasy</td>
-        <td><span class="status">To Read</span></td>
-        <td><span class="rate"><span></span><span></span><span></span></span></td>
-      </tr>
-      <tr class="read">
-        <td>To Kill a Mockingbird</td>
-        <td>Harper Lee</td>
-        <td>Classic/ Historical Fiction</td>
-        <td><span class="status">Read</span></td>
-        <td><span class="rate three"><span></span><span></span><span></span></span></td>
-      </tr>
-    </tbody>
-  </table>
+  <main id="playing-cards">
+    <div class="card card1">
+      <div class="left">A<br>♠</div>
+      <div class="middle">♠</div>
+      <div class="right">A<br>♠</div>
+    </div>
+    <div class="card card2">
+      <div class="left">A<br>♣</div>
+      <div class="middle">♣</div>
+      <div class="right">A<br>♣</div>
+    </div>
+    <div class="card card3 red">
+      <div class="left">A<br>♥</div>
+      <div class="middle">♥</div>
+      <div class="right">A<br>♥</div>
+    </div>
+    <div class="card card4 red">
+      <div class="left">2<br>♦</div>
+      <div class="middle">♦♦</div>
+      <div class="right">2<br>♦</div>
+    </div>
+    <div class="card card5">
+      <div class="left">2<br>♣</div>
+      <div class="middle">♣<br><span class="upside-down">♣</span></div>
+      <div class="right">2<br>♣</div>
+    </div>
+    <div class="card card6">
+      <div class="left">5<br>♣</div>
+      <div class="middle">♣♣<br>♣<span class="upside-down">♣♣</span></div>
+      <div class="right">5<br>♣</div>
+    </div>
+    <div class="card card7">
+      <div class="left">6<br>♠</div>
+      <div class="middle">♠♠<br>♠♠<span class="upside-down">♠♠</span></div>
+      <div class="right">6<br>♠</div>
+    </div>
+    <div class="card card8 red">
+      <div class="left">7<br>♥</div>
+      <div class="middle">♥♥<br>♥<span class="upside-down">♥♥<br>♥♥</span></div>
+      <div class="right">7<br>♣</div>
+    </div>
+    <div class="card card9 red">
+      <div class="left">8<br>♦</div>
+      <div class="middle">♦♦<br>♦♦<span class="upside-down">♦♦<br>♦♦</span></div>
+      <div class="right">8<br>♦</div>
+    </div>
+  </main>
 </body>
 
 </html>
